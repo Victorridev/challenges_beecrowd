@@ -24,3 +24,4 @@ for i in range(n):
         den = (n2 * d1)
 
     print('%d/%d = %d/%d' % (num, den, num/gcd(num, den), den/gcd(num, den)))
+

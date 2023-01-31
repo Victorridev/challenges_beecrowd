@@ -3,7 +3,7 @@ notes = int(input()) #567
 print(notes)
 print("{} nota(s) de R$ 100,00".format(int(notes/100))) #5
 aux = (notes%100) #RESTO DE 567/100
-print("{} nota(s) de R$ 50,00".format(int(aux/50)))  #67/50
+print("{} nota(s) de R$ 50,00".format(int(aux/50)))  #67 
 aux = (aux%50)
 print("{} nota(s) de R$ 20,00".format(int(aux/20)))
 aux = (aux%20)
